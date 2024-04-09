@@ -153,7 +153,7 @@ export const ValidationObserver = defineComponent({
           return
         }
 
-        delete this.refs.id
+        delete this.refs[id]
         return
       }
 
